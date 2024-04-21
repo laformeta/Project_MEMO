@@ -18,7 +18,7 @@ public class FileManagerService {
 	// 실제 업로드 된 이미지가 저장 될 경로(서버)
 	public static final String FILE_UPLOAD_PATH 
 	// = "D:\\kimseonghun\\6_spring_project\\MEMO\\MEMO_workspace\\images/"; 
-	= "C:\\Users\\lafor\\OneDrive\\바탕 화면\\JAVA\\MEMO\\workspace_memo\\images/";
+	= "C:\\Users\\lafor\\OneDrive\\Desktop\\JAVA\\MEMO\\workspace_memo\\images/";
 	// input : File 원본, userLoginId(폴더명) output : 이미지 경로
 
 	public String saveFile(String loginId, MultipartFile file) {
